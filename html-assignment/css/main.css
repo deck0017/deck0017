@@ -3,11 +3,15 @@ body {
 }
 
 header {
-    background-color: #ad1f66;
-    color: greenyellow;
+    background-color: greenyellow;
 }
 
 footer p {
     background-color: #ad1f66;
     color: greenyellow;
+}
+
+#deck0017
+{
+    color: purple
 }
