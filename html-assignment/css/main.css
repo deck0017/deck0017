@@ -11,20 +11,24 @@ footer p {
     color: greenyellow;
 }
 
-.deck0017
+.site-title
 {
     color: purple;
 }
 
-#rizz {
+#my-image {
     box-shadow: 0px 0px 2px 1px black;
 }
 
-.lists:nth-child(2){
-    color: teal;
-  }
+.hobbies {
+    list-style-type: square;
+}
 
-  a:link {
+.hobbies li:nth-child(odd) {
+    background-color: #ccc;
+}
+
+a:link {
     color:red;
     border: 1px solid blue;
     background-color: rgb(0, 244, 73);
