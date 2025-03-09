@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+a:link {
+    color:black;
+    text-decoration: none;
+}
+
+a:visited {
+    color:black;
+}
+
+
 .container {
     display: flex;
     flex-direction: column;
@@ -58,5 +68,6 @@ img {
 .info {
     border: 1px solid black;
 }
+
 
 
