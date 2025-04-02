@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>deck0017 final project</title>
+    <!-- Imporant! I did use Microsoft Co-Pilot to help me clean up the HTML and make the code valid, I made sure to read the feedback and make note of what I did wrong to improve. -->
     <head>
         <script src="https://kit.fontawesome.com/ad4cf726c0.js" crossorigin="anonymous"></script>
     </head>
@@ -12,7 +13,7 @@
             <div class="wrapper">
                 <img src="images/logo.png" alt="The Three Star Media Logo">
             </div>
-            
+               <!-- Added a list that would allow site navagation. -->
             <nav>
                 <ul>
                     <li class="home"><a href="#">Home</a></li>
@@ -22,7 +23,7 @@
                     <li class="contact"><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            
+            <!-- This code allows a search box and the icon is from fontawesome -->
             <form action="index.html" method="get" class="search-box">
                 <input type="text" placeholder="Search">
                 <button type="submit">
@@ -43,7 +44,7 @@
             <img src="images/about-us.jpg" width="1100" height="500" alt="Picture of Ping-Pong table">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         </section>
-    
+    <!-- This secetion goes into all the sites services -->
         <section class="services">
             <h3>Our Services</h3>
             
@@ -51,36 +52,48 @@
                 <h4>Digital Transformation</h4>
                 <img src="images/digital.jpg" width="1100" height="500" alt="Picture of Computer and Phone">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <button type="button">Digital Plans</button>
+                <button type="button">Digital Plans</button><i class="fa-sharp fa-solid fa-caret-right"></i>
             </div>
     
             <div class="marketing">
                 <h4>Marketing</h4>
                 <img src="images/marketing.jpg" width="1100" height="500" alt="Picture of Computer">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <button type="button">Marketing Plans</button>
+                <button type="button">Marketing Plans</button><i class="fa-sharp fa-solid fa-caret-right"></i>
             </div>
     
             <div class="video-production">
                 <h4>Video Production</h4>
                 <img src="images/video.jpg" width="1100" height="500" alt="Picture of Phone with YouTube">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <button type="button">Video Plans</button>
+                <button type="button">Video Plans</button><i class="fa-sharp fa-solid fa-caret-right"></i>
             </div>
 
             <div class="web-development">
                 <h4>Video Production</h4>
                 <img src="images/web.jpg" width="1100" height="500" alt="Picture of Phone">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <button type="button">Web Plans</button>
+                <button type="button">Web Plans</button><i class="fa-sharp fa-solid fa-caret-right"></i>
             </div>
 
             <div class="print">
                 <h4>Video Production</h4>
                 <img src="images/print.jpg" width="1100" height="500" alt="Picture of Mailboxes">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <button type="button">Print Plans</button>
+                <button type="button">Print Plans <i class="fa-sharp fa-solid fa-caret-right"></i>
+                </button>
             </div>
         </section>
-    </body>
+
+        <section class="ourvision" id="ourvision" style="background-image: url('images/vision.jpg'); background-size: cover;">
+            <h5>Our Vision</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem temporibus repellat provident error non necessitatibus molestiae aspernatur quia repellendus. Cum quidem quaerat sunt quasi? Culpa tempore cum distinctio veniam!</p>
+            
+            <button type="button">
+                Learn more <i class="fa-sharp fa-solid fa-caret-right"></i>
+            </button>
+        </section>
+
+
+
     </html>
