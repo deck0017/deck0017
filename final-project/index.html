@@ -5,165 +5,177 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>deck0017 final project</title>
     <!-- Imporant! I did use Microsoft Co-Pilot to help me validate some of my code and fix some mistakes. I made sure to write down feedback and take note of it. -->
-    <head>
-        <script src="https://kit.fontawesome.com/ad4cf726c0.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Pacifico&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <div class="wrapper">
-                <img src="images/logo.png" alt="The Three Star Media Logo">
-            </div>
-               <!-- Added a list that would allow site navagation. -->
-            <nav>
-                <ul>
-                    <li class="home"><a href="#">Home</a></li>
-                    <li class="about-us"><a href="#">About Us</a></li>
-                    <li class="services"><a href="#">Services</a></li>
-                    <li class="team"><a href="#">Team</a></li>
-                    <li class="contact"><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <!-- This code allows a search box and the icon is from fontawesome -->
-            <form action="index.html" method="get" class="search-box">
-                <input type="text" placeholder="Search">
-                <button type="submit">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-            </form>
-    
-            <div class="header">
-                <h1>Welcome to Three Star Media</h1>
-                <button type="button">Connect with Us
-                        <!-- This class adds arrow icons from font awesome -->
-                    <i class="fa-sharp fa-solid fa-caret-right"></i>
-                </button>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <img src="images/main-banner.jpg" width="1100" height="500" alt="Picture of Work Office" >
-            </div>
-        </header>
-    
-        <section class="about-us">
-            <h2>About Us</h2>
-            <img src="images/about-us.jpg" width="1100" height="500" alt="Picture of Ping-Pong table">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-        </section>
-    <!-- This secetion goes into all the sites services -->
-        <section class="services">
-            <h3>Our Services</h3>
-            
-            <div class="digital-transformation">
-                <h4>Digital Transformation</h4>
-                <img src="images/digital.jpg" width="1100" height="500" alt="Picture of Computer and Phone">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <button type="button">Digital Plans <i class="fa-sharp fa-solid fa-caret-right"></i>
-                </button>
-            </div>
-    
-            <div class="marketing">
-                <h4>Marketing</h4>
-                <img src="images/marketing.jpg" width="1100" height="500" alt="Picture of Computer">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <button type="button">Marketing Plans <i class="fa-sharp fa-solid fa-caret-right"></i>
-                </button>
-            </div>
-    
-            <div class="video-production">
-                <h4>Video Production</h4>
-                <img src="images/video.jpg" width="1100" height="500" alt="Picture of Phone with YouTube">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <button type="button">Video Plans <i class="fa-sharp fa-solid fa-caret-right"></i>
-                </button>
-            </div>
-
-            <div class="web-development">
-                <h4>Video Production</h4>
-                <img src="images/web.jpg" width="1100" height="500" alt="Picture of Phone">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <button type="button">Web Plans <i class="fa-sharp fa-solid fa-caret-right"></i>
-                </button>
-            </div>
-
-            <div class="print">
-                <h4>Video Production</h4>
-                <img src="images/print.jpg" width="1100" height="500" alt="Picture of Mailboxes">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <button type="button">Print Plans <i class="fa-sharp fa-solid fa-caret-right"></i>
-                </button>
-            </div>
-        </section>
-
-        <section class="ourvision" id="ourvision" style="background-image: url('images/vision.jpg'); background-size: cover;">
-            <h5>Our Vision</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem temporibus repellat provident error non necessitatibus molestiae aspernatur quia repellendus. Cum quidem quaerat sunt quasi? Culpa tempore cum distinctio veniam!</p>
-            
-            <button type="button">
-                Learn more <i class="fa-sharp fa-solid fa-caret-right"></i>
-            </button>
-        </section>
-
-        <div class="teammates" id="our-team">
-            <section class="team-members">
-                <h6>Our Team</h6>
-                <article>
-                    <img src="images/john.jpg" alt="John Doe">
-                    <h3>John Doe</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed omnis id quibusdam! Expedita, quo excepturi optio eaque dolor alias, facere dolores similique, magni impedit quidem architecto! Aspernatur voluptatem nobis dicta.</p>
-                </article>
-                <article>
-                    <img src="images/bob.jpg" alt="Bob Rite">
-                    <h4>John Doe</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed omnis id quibusdam! Expedita, quo excepturi optio eaque dolor alias, facere dolores similique, magni impedit quidem architecto! Aspernatur voluptatem nobis dicta.</p>
-                </article>
-            </section>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <img src="images/logo.png" alt="The Three Star Media Logo">
         </div>
-        <!-- This is the contact section of the webpage. -->
-        <section id="form">
-            <h2>Contact Us</h2>
+        <!-- Navigation List -->
+        <nav>
+            <ul>
+                <li class="home"><a href="#">Home</a></li>
+                <li class="about-us"><a href="#">About Us</a></li>
+                <li class="services"><a href="#">Services</a></li>
+                <li class="team"><a href="#">Team</a></li>
+                <li class="contact"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Search Box -->
+        <form action="index.html" method="get" class="search-box">
+            <input type="text" placeholder="Search">
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+        <div class="header">
+            <h1>Welcome to Three Star Media</h1>
+            <button type="button">
+                Connect with Us 
+                <!-- Fontawesome arrow icon -->
+                <i class="fa-sharp fa-solid fa-caret-right"></i>
+            </button>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="images/main-banner.jpg" width="1100" height="500" alt="Picture of Work Office">
+        </div>
+    </header>
+
+    <section class="about-us">
+        <h2>About Us</h2>
+        <img src="images/about-us.jpg" width="1100" height="500" alt="Picture of Ping-Pong table">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h3>Our Services</h3>
+        
+        <div class="digital-transformation">
+            <h4>Digital Transformation</h4>
+            <img src="images/digital.jpg" width="1100" height="500" alt="Picture of Computer and Phone">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button type="button">
+                Digital Plans 
+                <i class="fa-sharp fa-solid fa-caret-right"></i>
+            </button>
+        </div>
+    
+        <div class="marketing">
+            <h4>Marketing</h4>
+            <img src="images/marketing.jpg" width="1100" height="500" alt="Picture of Computer">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button type="button">
+                Marketing Plans 
+                <i class="fa-sharp fa-solid fa-caret-right"></i>
+            </button>
+        </div>
+    
+        <div class="video-production">
+            <h4>Video Production</h4>
+            <img src="images/video.jpg" width="1100" height="500" alt="Picture of Phone with YouTube">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button type="button">
+                Video Plans 
+                <i class="fa-sharp fa-solid fa-caret-right"></i>
+            </button>
+        </div>
+
+        <div class="web-development">
+            <h4>Web Development</h4>
+            <img src="images/web.jpg" width="1100" height="500" alt="Picture of a Smartphone Displaying a Website">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button type="button">
+                Web Plans 
+                <i class="fa-sharp fa-solid fa-caret-right"></i>
+            </button>
+        </div>
+
+        <div class="print">
+            <h4>Print Services</h4>
+            <img src="images/print.jpg" width="1100" height="500" alt="Picture of Mailboxes">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button type="button">
+                Print Plans 
+                <i class="fa-sharp fa-solid fa-caret-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Our Vision Section -->
+    <section class="ourvision" id="ourvision" style="background-image: url('images/vision.jpg'); background-size: cover;">
+        <h5>Our Vision</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem temporibus repellat provident error non necessitatibus molestiae aspernatur quia repellendus. Cum quidem quaerat sunt quasi? Culpa tempore cum distinctio veniam!</p>
+        <button type="button">
+            Learn more 
+            <i class="fa-sharp fa-solid fa-caret-right"></i>
+        </button>
+    </section>
+
+    <!-- Our Team Section -->
+    <div class="teammates" id="our-team">
+        <section class="team-members">
+            <h6>Our Team</h6>
+            <article>
+                <img src="images/john.jpg" alt="John Doe">
+                <h3>John Doe</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed omnis id quibusdam! Expedita, quo excepturi optio eaque dolor alias, facere dolores similique, magni impedit quidem architecto! Aspernatur voluptatem nobis dicta.</p>
+            </article>
+            <article>
+                <img src="images/bob.jpg" alt="Bob Rite">
+                <h4>Bob Rite</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed omnis id quibusdam! Expedita, quo excepturi optio eaque dolor alias, facere dolores similique, magni impedit quidem architecto! Aspernatur voluptatem nobis dicta.</p>
+            </article>
         </section>
-        
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
         <h3>Send Us a Message</h3>
-        
         <form action="index.html" method="get">
             <div class="fullname">
                 <label for="firstname">Full Name</label><br>
                 <input type="text" id="firstname" name="firstname">
             </div>
-        </form>
-        <form action="index.html" method="get">
             <div class="email">
                 <label for="email">Email</label><br>
                 <input type="text" id="email" name="email">
             </div>
-        </form>
-        <form action="index.html" method="get">
             <div class="message">
                 <label for="message">Message</label><br>
                 <input type="text" id="message" name="message">
-                <button type="button"> Send
-                </button>
             </div>
+            <button type="submit">Send</button>
         </form>
+    </section>
+
+    <!-- Hours of Operation Section -->
+    <section>
+        <table border="1">
+            <caption><strong>Hours of Operation</strong></caption>
+            <tr>
+                <th>Days</th>
+                <th>Hours</th>
+            </tr>
+            <tr>
+                <td>Monday to Friday</td>
+                <td>9 AM - 6 PM</td>
+            </tr>
+            <tr>
+                <td>Saturday to Sunday</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+    </section>
         <section>
-            <table border="1">
-                <caption><strong>Hours of Operation</strong></caption>
-                <tr>
-                    <th>Days</th>
-                    <th>Hours</th>
-                </tr>
-                <tr>
-                    <td>Monday to Friday</td>
-                    <td>9 AM - 6 PM</td>
-                </tr>
-                <tr>
-                    <td>Saturday to Sunday</td>
-                    <td>Closed</td>
-                </tr>
-            </table>
-        </section>
         <h1>Location</h1>
         <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9488443551963!2d-75.75536919999999!3d45.349844899999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1743077702544!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <script src="https://kit.fontawesome.com/ad4cf726c0.js" crossorigin="anonymous"></script>
+        </section>
+        <footer>
+            ©Copyright Three Star Media, 2020
+            All Images are taken from Unsplash
+        </footer>
         
 
     </html>
