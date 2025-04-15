@@ -13,3 +13,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
   }
+
+  header {
+    background-color: #c78c06;
+    padding: 100px 0;
+  }
