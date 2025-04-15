@@ -18,3 +18,10 @@ body {
     background-color: #c78c06;
     padding: 100px 0;
   }
+
+  header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
