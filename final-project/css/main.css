@@ -13,6 +13,10 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #222;
+    color: #C78D06;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul {
