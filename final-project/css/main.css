@@ -69,8 +69,8 @@ nav ul {
     flex-direction: column;
 }
 
-special-list {
-    color: white;
+.special-list a {
+    color: #C78D06;
 }
 
 nav ul li {
