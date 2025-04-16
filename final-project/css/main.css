@@ -164,3 +164,46 @@ header .wrapper {
 
   /* desktop work */
 
+
+  .search-box button i {
+    color: #C78C06;
+}
+
+.connect-button {
+    background-color: #C78C06;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.connect-button:hover {
+    background-color: #FFE6AC;
+}
+
+
+
+.about {
+    background-color: #FFE6AC;
+    color:  #222;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .about p {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .about img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
