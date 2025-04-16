@@ -53,11 +53,18 @@ header {
     width: 50px;
 }
 
+nav {
+    background-color: #222;
+    color: white;
+    padding: 10.5px
+}
+
 nav ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
+    flex-direction: column;
 }
 
 nav ul li {
