@@ -72,6 +72,14 @@ nav ul li {
     text-align: center;
 }
 
+button {
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
 nav ul li a {
     text-decoration: none;
     color: #222;
@@ -118,4 +126,12 @@ header .wrapper {
     padding: 0 30px;
 }
 
-  
+  footer {
+    background-color: #222;
+    color: #C78D06;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
