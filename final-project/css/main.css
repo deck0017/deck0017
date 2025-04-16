@@ -1,28 +1,26 @@
+/* General Container */
 .container {
-    max-width: 90%;
+    max-width: 1200px; /* Increased for better layout */
     padding: 20px;
     margin: 0 auto;
     width: 100%;
 }
 
-@media (min-width: 760px) {
-    .grid {
-    grid-template-columns: 1fr 1fr;
-    }
-}
-
-header {
-    background-color: #C78D06;
-    padding: 20px 0;
-  }
-  
-
+/* Grid System */
 .grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
 }
 
+/* Desktop Grid Layout */
+@media (min-width: 760px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Typography and font color */
 h1, h2 {
     color: white;
     font-size: 2rem;
@@ -34,12 +32,13 @@ p {
     line-height: 1.5;
 }
 
+/* Image Styles */
 img {
     max-width: 100%;
     height: auto;
 }
 
-
+/* Global Styles */
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #222;
@@ -48,6 +47,7 @@ body {
     padding: 0;
 }
 
+/* Header */
 header {
     background-color: #C78D06;
     padding: 25px;
@@ -56,50 +56,38 @@ header {
     align-items: center;
 }
 
+/* Logo */
 .logo img {
     width: 50px;
 }
 
+/* Navigation */
 nav {
     background-color: #222;
     color: white;
-    padding: 10.5px
+    padding: 10px;
 }
 
 nav ul {
-    color: white;
     list-style: none;
     display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
-    flex-direction: column;
-}
-
-.special-list a {
-    color: #C78D06;
 }
 
 nav ul li {
-    color: white;
-    margin-bottom: 10;
     text-align: center;
-}
-
-button {
-    padding: 10px;
-    background-color: #222;
-    color: white;
-    border: none;
-    cursor: pointer;
+    margin-bottom: 10px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #222;
+    color: #C78D06;
     font-size: 20px;
 }
 
-
+/* Search Box */
 .search-box {
     display: flex;
     align-items: center;
@@ -108,7 +96,7 @@ nav ul li a {
     background-color: #222;
 }
 
-.search-box input [type="text"]{
+.search-box input[type="text"] {
     width: 500px;
     padding: 10px;
     border: 1px solid #222;
@@ -123,36 +111,39 @@ nav ul li a {
     border-radius: 5px;
 }
 
-.search-box button img {
-    width: 20px;
+.search-box button i {
+    color: #C78C06;
 }
 
-.search-box input[type="text"] {
-    padding: 5px;
+/* Buttons */
+button {
+    padding: 10px;
+    background-color: #222;
+    color: white;
     border: none;
-    border-radius: 2px;
-  }
-  
-  .search-box button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+/* Connect Button */
+.connect-button {
+    background-color: #C78C06;
+    color: white;
     border: none;
-    background: transparent;
-    color: #222;
-  }
-  
-
-header {
-    background-color: #C78D06;
-    padding: 100px 0;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
-header .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 30px;
+.connect-button:hover {
+    background-color: #FFE6AC;
 }
 
-  footer {
+/* Footer */
+footer {
     background-color: #222;
     color: #C78D06;
     text-align: center;
@@ -160,19 +151,12 @@ header .wrapper {
     position: fixed;
     width: 100%;
     bottom: 0;
-  }
-
-  /* More work */
-
-  .about-us {
-    background-color: #FFE6AC;
-    padding: 60px 0;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+/* About Us Section */
+.about-us {
+    background-color: #FFE6AC;
+    padding: 60px 0;
 }
 
 .about-us-grid {
@@ -209,7 +193,7 @@ header .wrapper {
     margin-bottom: 15px;
 }
 
-/* resizing for desktop */
+/* Responsive About Us */
 @media (max-width: 768px) {
     .about-us-grid {
         flex-direction: column;
@@ -230,59 +214,7 @@ header .wrapper {
     }
 }
 
-
-
-  .search-box button i {
-    color: #C78C06;
-}
-
-.connect-button {
-    background-color: #C78C06;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-.connect-button:hover {
-    background-color: #FFE6AC;
-}
-
-.service-grid .service:nth-child(odd) {
-    background-color: #FFE6AC; 
-}
-
-.service-grid .service:nth-child(even) {
-    background-color: #FFE6AC;
-}
-
-
-.about {
-    background-color: #FFE6AC;
-    color: #222;
-    padding: 60px 0;
-    text-align: center;
-}
-
-.about h2 {
-    margin-bottom: 20px;
-    color: black;
-}
-
-.about p {
-    color: black;
-    max-width: 800px;
-    margin: 20px auto;
-}
-
-.about img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-}
-
-/* Services Section */
+/* Services section */
 .services {
     background-color: #f4f4f4;
     padding: 60px 0;
@@ -294,6 +226,7 @@ header .wrapper {
     margin-bottom: 40px;
 }
 
+/* Service grid*/
 .service-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -303,10 +236,19 @@ header .wrapper {
 /* Single Service Box */
 .service {
     color: black;
-    background-color: black; 
+    background-color: white;
     padding: 20px;
-    border: 1px solid white;
+    border: 1px solid #ddd;
     text-align: center;
+}
+
+/* Alternating Service Box Colors which isn't needed but I'm keeping it here or something breaks */
+.service-grid .service:nth-child(odd) {
+    background-color: #FFE6AC;
+}
+
+.service-grid .service:nth-child(even) {
+    background-color: #FFE6AC
 }
 
 .service h3 {
@@ -315,7 +257,7 @@ header .wrapper {
 }
 
 .service p {
-    color:black;
+    color: black;
     margin-bottom: 20px;
 }
 
@@ -330,7 +272,6 @@ header .wrapper {
 .service button:hover {
     background-color: white;
 }
-
 
   
   
