@@ -9,7 +9,15 @@
     .grid {
     grid-template-columns: 1fr 1fr;
     }
-}
+
+}  .header {
+    position: relative;
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+
 
 .grid {
     display: grid;
@@ -142,3 +150,4 @@ header .wrapper {
     width: 100%;
     bottom: 0;
   }
+
