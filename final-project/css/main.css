@@ -127,6 +127,19 @@ nav ul li a {
     width: 20px;
 }
 
+.search-box input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+  }
+  
+  .search-box button {
+    border: none;
+    background: transparent;
+    color: #222;
+  }
+  
+
 header {
     background-color: #C78D06;
     padding: 100px 0;
@@ -148,4 +161,6 @@ header .wrapper {
     width: 100%;
     bottom: 0;
   }
+
+  /* desktop work */
 
