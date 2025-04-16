@@ -255,13 +255,13 @@ header .wrapper {
 .service button {
     padding: 8px 16px;
     background-color: #222;
-    color: #fff;
+    color: white;
     border: none;
     cursor: pointer;
 }
 
 .service button:hover {
-    background-color: #444;
+    background-color: white;
 }
 
   
