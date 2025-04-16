@@ -6,9 +6,8 @@
 }
 
 @media (min-width: 760px) {
-    .container {
-        background-color: #FFE6AC;
-        font-size: 18px;
+    .grid {
+    grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -17,6 +16,12 @@
     grid-template-columns: 1fr;
     gap: 20px;
 }
+
+h1, h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
 
 body {
     font-family: 'Open Sans', sans-serif;
