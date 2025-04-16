@@ -1,5 +1,6 @@
 .container {
-    max-width: 1200px;
+    max-width: 90%;
+    padding: 20px;
     margin: 0 auto;
     width: 100%;
 }
@@ -9,6 +10,12 @@
         background-color: #FFE6AC;
         font-size: 18px;
     }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 
 body {
@@ -58,7 +65,7 @@ nav ul li a {
 }
 
 .search-box input [type="text"]{
-    width: 300px;
+    width: 500px;
     padding: 10px;
     border: 1px solid #222;
     border-radius: 5px;
