@@ -10,12 +10,11 @@
     grid-template-columns: 1fr 1fr;
     }
 
+
 }  .header {
     position: relative;
-    width: 100%;
-    max-width: 1000px;
-    height: auto;
-    margin: 0 auto;
+    background: url('images/main-banner.jpg') no-repeat center center/cover;
+    height: 500px;
   }
 
 
