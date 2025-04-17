@@ -119,6 +119,7 @@ nav ul li a {
 @media (min-width: 1024px) {
     .navbar {
       flex-direction: row; 
+      position: fixed;
     }
   
     .nav-list {
