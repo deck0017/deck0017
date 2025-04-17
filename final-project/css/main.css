@@ -557,5 +557,30 @@ body {
   }
   
   
+  /* Time Table Styling */
+.contact-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white; 
+  }
+  
+  .contact-table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px auto; 
+  }
+  
+  .contact-table th, .contact-table td {
+    border: 1px solid #222; 
+    padding: 10px 15px; 
+    text-align: left; 
+  }
+  
+  .contact-table th {
+    background-color: #FFE6AC 
+  }
+  
+
+  
 
 
