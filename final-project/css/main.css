@@ -559,12 +559,18 @@ body {
   
   /* Time Table Styling */
 .contact-section {
+    color: #222;
     text-align: center;
     padding: 40px 20px;
     background-color: white; 
-    color: #222;
   }
-  
+
+  .contact-section h2 {
+  color: black; 
+  font-size: 2rem; 
+  margin-bottom: 20px; 
+}
+
   .contact-table {
     width: 100%; 
     border-collapse: collapse; 
