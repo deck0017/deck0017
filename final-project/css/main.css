@@ -556,7 +556,39 @@ body {
     background-color: white;
   }
   
+  /* Styling for the FORM you can fill out, names are a bit confusing, sorry */
+.contact {
+    color: black;
+    text-align: left; 
+    padding: 20px;
+  }
   
+  .contact .form-group label {
+    color: black; 
+    font-weight: bold; 
+  }
+  
+  .contact .form-group input,
+  .contact .form-group textarea {
+    color: black; 
+    border: 1px solid #ccc; 
+    width: 100%;
+    box-sizing: border-box; 
+  }
+  
+  .contact button {
+    background-color: BLACK;
+    color: #C78C06; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    background-color: #e6b800; 
+  }
+
+
   /* Time Table Styling */
 .contact-section {
     color: #222;
