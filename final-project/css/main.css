@@ -122,7 +122,7 @@ nav ul li a {
 
 /* Allows for horionztal layout on desktop */
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     .navbar {
       flex-direction: row; 
       position: fixed;
@@ -381,7 +381,7 @@ footer {
   }
   
   /* Desktop style */
-  @media (min-width: 1024px) {
+  @media (min-width: 1200px) {
     .services {
       padding: 60px 0;
     }
@@ -506,6 +506,42 @@ body {
   .team-member.reverse .description {
     text-align: right;
   }
+
+/* Media for mobile layout */
+
+  @media (max-width: 760px) {
+    .team-member {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .team-member.reverse {
+      flex-direction: column; 
+    }
+  
+    .team-member .photo {
+      margin-bottom: 15px; 
+    }
+  
+    .team-member .description {
+      text-align: center; 
+      padding: 15px; 
+    }
+  
+    .team-member .description h2 {
+      font-size: 1.5rem; 
+    }
+  
+    .team-member .description h3 {
+      font-size: 1rem; 
+    }
+  
+    .team-member .description p {
+      font-size: 0.9rem; 
+      line-height: 1.4; 
+    }
+  }
+  
 
   /* Vision section */
 .vision {
