@@ -20,6 +20,16 @@
     }
 }
 
+/* General Navigation Bar Style */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 20px;
+}
+
+
 /* Typography and font color */
 h1, h2 {
     color: white;
