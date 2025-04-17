@@ -233,6 +233,7 @@ footer {
 /* main banner */
 .banner {
     background-image: url('../images/main-banner.jpg');
+    height: 500px;
     background-size: cover;
     background-position: center;
     padding: 2rem 0;
