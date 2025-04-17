@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 /* General Container */
 .container {
     max-width: 1200px; /* increased for better layout */
@@ -224,6 +230,19 @@ footer {
     bottom: 0;
 }
 
+/* main banner */
+.banner {
+    background-image: url('../images/main-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 0;
+}
+
+.banner-text {
+    background-color: rgba(0,0,0,0.5);
+    padding: 2rem;
+}
+
 /* About Us Section */
 .about-us {
     background-color: #FFE6AC;
@@ -376,7 +395,7 @@ footer {
   
 
     .service img {
-      width: 100%;
+      max-width: 100%;
       height: auto;
       border-radius: 8px;
     }
@@ -409,23 +428,12 @@ footer {
 
   /* Vision section */
 .vision {
-    position: relative;
+    background-image: url('../images/vision.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 0;
     color: white;
   }
   
-  /* Style fitting the image */
-  .vision img {
-    width: 100%;
-    height: 20%;
-    display: block;
-  }
-  
-  /* Overlay container covers the whole image */
-  .vision .overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-    
+
 
