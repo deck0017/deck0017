@@ -647,6 +647,13 @@ body {
     height: 100%; 
     border: none; 
   }
+
+  .map-container {
+    flex: 1; 
+  }
+   
+  
+  
   
   /* Mobile sizing */
   @media (max-width: 760px) {
