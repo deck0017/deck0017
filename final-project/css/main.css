@@ -29,6 +29,23 @@
     padding: 20px;
 }
 
+.logo img {
+    width: 50px;
+}
+
+
+.nav-list li a {
+    text-decoration: none;
+    color: #C78C06;
+    font-size: 1rem;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+
+
+
 
 /* Typography and font color */
 h1, h2 {
@@ -97,6 +114,44 @@ nav ul li a {
     font-size: 20px;
 }
 
+/* Allows for horionztal layout on desktop */
+
+@media (min-width: 1024px) {
+    .navbar {
+      flex-direction: row; 
+    }
+  
+    .nav-list {
+      flex-direction: row; 
+    }
+  
+    .search-box {
+      margin-left: auto; 
+    }
+  }
+  
+  /* Allows for website to stay vertical on mobile for search bar*/
+  @media (max-width: 1024px) {
+    .navbar {
+      flex-direction: column; 
+      align-items: flex-start;
+    }
+  
+    .nav-list {
+      flex-direction: column; 
+      gap: 15px;
+    }
+  
+    .search-box {
+      width: 100%; 
+    }
+  
+    .search-box input {
+      width: 100%; 
+    }
+  }
+  
+
 /* Search Box */
 .search-box {
     display: flex;
@@ -124,6 +179,11 @@ nav ul li a {
 .search-box button i {
     color: #C78C06;
 }
+
+.search-box button:hover {
+    background-color: #FFE6AC  
+  }
+  
 
 /* Buttons */
 button {
