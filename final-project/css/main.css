@@ -402,7 +402,7 @@ footer {
   
     .service p {
       font-size: 1em;
-      color: #333;
+      color: #222;
       margin-bottom: 10px;
     }
   
@@ -416,7 +416,7 @@ footer {
     }
   
     .service button:hover {
-      background-color: #444;
+      background-color: #C78C06;
     }
   }
 
