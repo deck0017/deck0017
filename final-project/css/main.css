@@ -460,7 +460,6 @@ body {
   .team-member .photo {
     flex: 1;
     padding: 30px;
-    width: 50%;
   }
   
   .team-member .photo img {
@@ -650,6 +649,18 @@ body {
   }
    
   
+  a {
+    text-decoration: none;
+    color: #C78D06;
+  }
+
+  a:hover {
+    color: #FFE6AC
+  }
+
+  a:visited {
+    color: #C78D06;
+  }
   
   
   /* Mobile sizing */
